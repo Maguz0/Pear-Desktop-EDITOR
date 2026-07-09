@@ -174,6 +174,7 @@ Esta versión se enfocó en endurecer el motor de **Portadas Dinámicas**:
 - Mejorar OCULTAR FILTROS DE BUSQUEDA no lo recuerda hasta que ocultas otro filtro
 - Mejorar OCULTAR OPCIONES DEL MENU (los 3 puntos en la barra de reproduccion) no oculta sus opciones.
 - quitar opciones repetidas y mejorar sus nombres.
+
   ---
 
 ## DUDAS PROBLEMAS O IDEAS
@@ -182,9 +183,11 @@ Esta versión se enfocó en endurecer el motor de **Portadas Dinámicas**:
 - este script surge mediante la peticion de gente en el repositorio oficial pidiendo TEMAS y que agreguen posibilidades de ocultar/modificar secciones completas a voluntad cosas donde un CSS no puede tocar o modificar y la forma mas facil es un script que apunte a esos selectores html o js y un panel para tener el control en todo el momento este script lo hace posible
   ¿preguntas?:
 - no lo hago para la app Por una sola razon el programa tiene miles de lineas de codigo y es facil romper o dañar algo y que tengas mas errores de los que quisieras tambien que al hacer un fork tendria que migrar cambios compilarlo para prueba/error y mas cosas. lo intentaré pero no prometo mucho.
-- Lo que si puedes hacer es:
--             Ir al repositorio De PEAR DESKTOP y decir que si puede agregar este script a la app principal igual si eres un Desarrollador y tienes un fork y quieres agregarlo puedes darle tu toque y usarlo sin problemas.
--             Dar ideas de que agregar alguna funcion o algo que debe estar oculto o algo donde el script no llega o no se modifica aun despues de ejecutarlo o algo que te daña visualmente o mejorar algun tema / funcion 
+
+
+  Lo que si puedes hacer es:
+-  Ir al repositorio De PEAR DESKTOP y decir que si puede agregar este script a la app principal igual si eres un Desarrollador y tienes un fork y quieres agregarlo puedes darle tu toque y usarlo sin problemas.
+- Dar ideas de que agregar alguna funcion o algo que debe estar oculto o algo donde el script no llega o no se modifica aun despues de ejecutarlo o algo que te daña visualmente o mejorar algun tema / funcion 
 
 
 <div align="center">
