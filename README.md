@@ -46,7 +46,7 @@
 2. Abre las **DevTools**: `Ctrl + Shift + I` (o `OPCIONES-opciones avanzadas-activar devtools`).
 3. Ve a la pestaña **Console**.
 4. Pega el contenido completo de [`pear-theme-editor.js`](./pear-theme-editor.js) y presiona `Enter`.
-5. Verás un botón flotante 🎨 aparecer en la esquina — ese es el menú del editor.
+5. Verás PEAR MENU aparecer a la derecha de ACERCA DE — ese es el menú del editor.
 
 > 💡 **Tip:** si usas un gestor de userscripts para Electron (o simplemente quieres que se inyecte solo al abrir la app), guarda el `.js` y automatiza su carga en el `preload` de Pear Desktop. El script ya trae su propio *guard* de re-inyección (`window._pte5_loaded`), así que pegarlo dos veces por accidente no rompe nada.
 
@@ -63,7 +63,6 @@ Para **desactivarlo**, simplemente recarga Pear Desktop (`Ctrl + R`).
 | **temas predefinidos** | Clásicos (YouTube Music, Spotify, Océano, Galaxia...), AMOLED × color, Blanco × color, temas brillantes |
 | **tipografías** | Desde Inter/Roboto/Poppins hasta fuentes decorativas cargadas por Google Fonts o locales (Pixel, Fiolex Girls, Impact...) |
 | **Selector de logo** | YouTube Music, Spotify, Apple Music, GitHub, GIFs (Pocoyo, Kuromi, Gengar, etc.), o URL personalizada — con control de tamaño |
-| **Ancho de ventana personalizado** | Layout forzado al 110%|
 | **RGB en bordes / Frosted Glass** | Efectos visuales adicionales para el panel y bordes |
 
 ### 🎬 Portadas Dinámicas v4
