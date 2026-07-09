@@ -137,11 +137,55 @@ Esta versión se enfocó en endurecer el motor de **Portadas Dinámicas**:
 
 ## ⚠️ Advertencias
 
-- Es un script de **inyección en tiempo de ejecución**: un update de Pear Desktop/YTM que cambie clases o estructura del DOM puede romper alguna función puntual (los selectores traen *fallbacks*, pero no son infalibles).
+- Es un script de **inyección Temporal**: un update de Pear Desktop/YTM que cambie clases o estructura del DOM puede romper alguna función puntual (los selectores traen *fallbacks*, pero no son infalibles).
 - Las fuentes de Portadas Dinámicas son **APIs públicas de terceros** sin autenticación (M8TEC, iTunes, Deezer, MusicBrainz): su disponibilidad no depende de este script.
 - Todo el estado (tema, toggles, preferencias) se guarda en `localStorage` del proceso de Pear Desktop — se pierde si limpias los datos de la app.
 
 ---
+
+## Proximamente
+
+- Se agregaran mas cosas como OCULTAR SECCIONES ENTERAS EN: (TABS "similares" / PRINCIPAL (Home) / EXPLORAR ) esto con CHIPS para poder seleccionar que quitar:
+<img width="1325" height="753" alt="momento" src="https://github.com/user-attachments/assets/f9c80597-d090-4dba-9991-d25f755f7dde" />
+<img width="1365" height="627" alt="cover" src="https://github.com/user-attachments/assets/961b4656-ff58-4205-9e88-31871d118124" />
+<img width="1365" height="669" alt="playlist" src="https://github.com/user-attachments/assets/44e13879-5089-4104-a9a4-cd295323799b" />
+<img width="838" height="132" alt="1" src="https://github.com/user-attachments/assets/06abb74e-7dd1-4725-8c66-668f4b567429" />
+<img width="763" height="80" alt="2" src="https://github.com/user-attachments/assets/3f908c52-89c3-4de5-b3f0-a3e87d57ab26" />
+<img width="646" height="82" alt="3" src="https://github.com/user-attachments/assets/5dd989f5-dbf5-4b42-9f11-f3f965aef36b" />
+<img width="499" height="101" alt="4" src="https://github.com/user-attachments/assets/09feaa60-1e2f-4a0a-a5c2-2e652eaa8d22" />
+<img width="714" height="96" alt="5" src="https://github.com/user-attachments/assets/731acef6-ddcc-4e31-961b-caa2f9e82f4a" />
+<img width="624" height="131" alt="6" src="https://github.com/user-attachments/assets/3d43a115-e515-4b46-8b89-272fdc263653" />
+<img width="729" height="110" alt="1-1" src="https://github.com/user-attachments/assets/8ea47f2b-32ba-4a5d-b026-8c091ab07274" />
+<img width="704" height="113" alt="1-2" src="https://github.com/user-attachments/assets/abbd4b97-33e9-45a6-ad30-2ff9e50db7e6" />
+<img width="356" height="118" alt="1-3" src="https://github.com/user-attachments/assets/8f4d1129-50a9-4dc1-8be7-7ca33917e8d9" />
+<img width="1163" height="471" alt="seleccion rapida" src="https://github.com/user-attachments/assets/26708cef-6b39-4f5e-a0a4-f874f53b4918" />
+
+
+- agregar temas de la gente que ha creado asi que si tu TEMA si ese tema que tienes CSS cargado en PEAR DESKTOP lo agregare como seccion COMUNIDAD y claro se dara creditos. (esto pues se ha visto que gente a subido temas en github y seria bueno que estuvieran en este 3D1T0R
+- se quitaran/mejoraran temas de la seccion DETERMINADOS ya que hay muchos que son parecidos o casi iguales y ahi otros que se siente mucho el cambio igual si tu vez algunos parecido puedes decir quiten ete tema #nombre ej bLANCOXORO u otro.
+- arreglar algunos errores como PORTADA AL CENTRO culpa del PORTADAS DINAMICAS: <img width="924" height="612" alt="portada al centro" src="https://github.com/user-attachments/assets/fcdd6c30-1343-4faf-9120-d8c184a8b17a" />
+
+
+- agregar mas FUENTES de texto en todo el contexto: (WINDOWS/LINUX/MAC OS)
+- HACER FUNCIONAR home: <img width="96" height="33" alt="HOME" src="https://github.com/user-attachments/assets/b7125a93-1be5-46e7-986c-b85c9d082495" />
+
+- agregar soporte para SHORTCUT/keys para funciones mapeables ABRIR BUSQUEDA / SIGUIENTE CANCION y mas
+- Mejorar algunas funciones como: LIKE no cambia el icono hasta que cambias de TEMA
+- Mejorar OCULTAR FILTROS DE BUSQUEDA no lo recuerda hasta que ocultas otro filtro
+- Mejorar OCULTAR OPCIONES DEL MENU (los 3 puntos en la barra de reproduccion) no oculta sus opciones.
+- quitar opciones repetidas y mejorar sus nombres.
+  ---
+
+## DUDAS PROBLEMAS O IDEAS
+- Abre un ISSUE sobre alguna funcion que pase por alto algo que deberia estar y lo agregare
+- dato este script solo mejora detalles visuales no tecnicos problemas de DEPENDENCIAS EXTERNA O ERRORES de los desarrolladores no se tocaran ej (crossfade)
+- este script surge mediante la peticion de gente en el repositorio oficial pidiendo TEMAS y que agreguen posibilidades de ocultar/modificar secciones completas a voluntad cosas donde un CSS no puede tocar o modificar y la forma mas facil es un script que apunte a esos selectores html o js y un panel para tener el control en todo el momento este script lo hace posible
+  ¿preguntas?:
+- no lo hago para la app Por una sola razon el programa tiene miles de lineas de codigo y es facil romper o dañar algo y que tengas mas errores de los que quisieras tambien que al hacer un fork tendria que migrar cambios compilarlo para prueba/error y mas cosas. lo intentaré pero no prometo mucho.
+- Lo que si puedes hacer es:
+-             Ir al repositorio De PEAR DESKTOP y decir que si puede agregar este script a la app principal igual si eres un Desarrollador y tienes un fork y quieres agregarlo puedes darle tu toque y usarlo sin problemas.
+-             Dar ideas de que agregar alguna funcion o algo que debe estar oculto o algo donde el script no llega o no se modifica aun despues de ejecutarlo o algo que te daña visualmente o mejorar algun tema / funcion 
+
 
 <div align="center">
 
